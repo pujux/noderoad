@@ -1,28 +1,22 @@
 {
-  "name": "gumnode",
-  "version": "1.0.2",
-  "description": "Gumroad API client",
+  "name": "noderoad",
+  "version": "0.0.1",
+  "description": "Node.js Gumroad API client",
   "main": "./src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/noahbuscher/gumnode.git"
+    "url": "https://github.com/pujux/noderoad.git"
   },
   "keywords": [
     "gumroad",
     "api",
     "wrapper",
+    "api client",
     "ecommerce"
   ],
-  "author": "Noah Buscher",
+  "author": "Julian Pufler",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/noahbuscher/gumnode/issues"
-  },
-  "homepage": "https://github.com/noahbuscher/gumnode#readme",
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "0.21.4"
   }
 }
